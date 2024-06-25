@@ -1,0 +1,100 @@
+.skills {
+  max-width: 75vw;
+  margin: 0.25rem auto;
+  padding: 4.5rem 0 0 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3.63rem;
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.line {
+  margin-right: 11.5vw;
+  margin-left: 14.489vw;
+  margin-bottom: -20px;
+  margin-top: 13px;
+}
+.liner {
+  opacity: 0;
+}
+.circle {
+  position: relative;
+  left: 1000px;
+  bottom: 130px;
+  width: 215px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .skills {
+    max-width: 768px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 52px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .circle {
+    position: relative;
+    left: 525px;
+    bottom: 110px;
+  }
+  .liner {
+    opacity: 0;
+  }
+  .line {
+    margin: 0;
+    padding: 0;
+    width: 708px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .skills {
+    max-width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 24px;
+  }
+  .liner {
+    opacity: 1;
+    margin-top: -142px;
+    margin-bottom: 160px;
+  }
+  .line,
+  .liner {
+    width: 343px;
+    height: 1px;
+  }
+  .line {
+    margin-left: 16px;
+  }
+  .circle {
+    position: relative;
+    top: -48px;
+    left: 80px;
+  }
+}

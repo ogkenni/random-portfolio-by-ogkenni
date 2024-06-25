@@ -1,0 +1,55 @@
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.2857143878936768px;
+  text-align: left;
+  width: auto;
+  height: 36px;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #4ee1a0;
+  background-color: transparent;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  color: #4ee1a0;
+  transform: scale(1.05);
+}
+.button:active {
+  transform: scale(0.95);
+}
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.2857143878936768px;
+    text-align: left;
+    width: auto;
+    height: 36px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #4ee1a0;
+    background-color: transparent;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 0;
+  }
+
+  .button:hover {
+    color: #4ee1a0;
+    transform: scale(1.05);
+  }
+  .button:active {
+    transform: scale(0.95);
+  }
+}
